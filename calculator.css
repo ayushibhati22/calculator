@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Bitcount+Grid+Double:wght@100..900&family=Cutive+Mono&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+h1{
+  color: rgb(230, 160, 68);
+  
+  position: absolute;
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  top: 3%;
+  border-bottom: 2px solid rgb(255, 119, 0);
+  }
+  
+
+  body {
+    background-color: #f0f0f0;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-image: url("https://st5.depositphotos.com/75494502/71864/i/450/depositphotos_718647896-stock-photo-abstract-background-wallpaper-texture.jpg");
+    background-size: cover;
+  position: relative;
+  overflow: hidden;
+  
+}
+  
+  
+  .container {
+    position: absolute;
+    background-color: black;
+    border-radius: 30px;
+    padding: 20px;
+    width: 320px;
+    height: auto;
+    max-width: 420px;
+    top: 20%;
+    box-shadow: 0 0 20px rgba(224, 114, 10, 1);
+   
+  }
+  
+  .result {
+    margin-bottom: 10px;
+  }
+  
+  .result >input {
+    width: 100%;
+    background: rgb(74, 71, 71);
+    color: white;
+    border: none;
+    font-size: 48px;
+    text-align: right;
+    padding: 20px 10px;
+    overflow: auto ;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .row {
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 8px 0;
+  }
+  
+  
+  .button {
+    width: 65px;
+    height: 65px;
+    
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #333;
+    cursor: pointer;
+    }
+  
+  .button:active {
+    background-color: #a9a0a0;
+  }
+  
+  .grey {
+    background-color: #ddd7d7;
+    color: black;
+  }
+  .color {
+    background-color: orange;
+    color: white;
+  }
+  
+  @media (max-width: 600px){ 
+    h1 {
+      font-size: 2rem;
+      background-color: black;
+    }
+  
+    
+    .button{
+      width: 50px;
+      height: 50px;
+    }
+    .row{
+      
+      margin:5px 0;
+     
+    }
+} 
+@media (min-width: 600px) and (max-width: 768px){ 
+    h1 {
+      font-size: 2.5rem;
+      background-color: black;
+    }
+  
+    .button{
+      width: 55px;
+      height: 55px;
+    }
+    .row{
+      
+      margin:7px 0;
+     
+    }
+} 
+@media (min-width: 768px) and (max-width: 992px){ 
+    h1 {
+      font-size: 3  rem;
+      background-color: black;
+    }
+  
+    
+    .button{
+      width: 60px;
+      height: 60px;
+    }
+    .row{
+      
+      margin:25px 0;
+     
+    }
+
+     
+      
+  }
+  
